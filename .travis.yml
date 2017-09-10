@@ -18,6 +18,8 @@ script:
   - make LDFLAGS=-lpthread
   - make test
 
+group: deprecated-2017Q3
+
 notifications:
   email:
     - junhyun.park@jam2in.com
