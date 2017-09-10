@@ -18,7 +18,7 @@ script:
   - make LDFLAGS=-lpthread
   - make test
 
-group: deprecated-2017Q3
+dist: precise
 
 notifications:
   email:
