@@ -19,6 +19,7 @@ script:
   - make test
   - cat test-suite.log
 
+sudo: required
 #dist: precise
 
 notifications:
