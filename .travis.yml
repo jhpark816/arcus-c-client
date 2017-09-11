@@ -20,7 +20,7 @@ script:
   - cat test-suite.log
 
 sudo: required
-#dist: precise
+dist: precise
 
 notifications:
   email:
